@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E614B30C-9685-4520-95C8-21269DDC35CC}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>icc</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>D:\code\C++\Projects\icc\source;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\source\icc\a2b0.c" />
+    <ClCompile Include="..\source\icc\a2b1.c" />
+    <ClCompile Include="..\source\icc\a2b2.c" />
+    <ClCompile Include="..\source\icc\b2a0.c" />
+    <ClCompile Include="..\source\icc\b2a1.c" />
+    <ClCompile Include="..\source\icc\b2a2.c" />
+    <ClCompile Include="..\source\icc\bfd.c" />
+    <ClCompile Include="..\source\icc\bkpt.c" />
+    <ClCompile Include="..\source\icc\btrc.c" />
+    <ClCompile Include="..\source\icc\bxyz.c" />
+    <ClCompile Include="..\source\icc\calt.c" />
+    <ClCompile Include="..\source\icc\cprt.c" />
+    <ClCompile Include="..\source\icc\desc.c" />
+    <ClCompile Include="..\source\icc\dmdd.c" />
+    <ClCompile Include="..\source\icc\dmnd.c" />
+    <ClCompile Include="..\source\icc\gamt.c" />
+    <ClCompile Include="..\source\icc\gtrc.c" />
+    <ClCompile Include="..\source\icc\gxyz.c" />
+    <ClCompile Include="..\source\icc\icc.c" />
+    <ClCompile Include="..\source\icc\ktrc.c" />
+    <ClCompile Include="..\source\icc\lumi.c" />
+    <ClCompile Include="..\source\icc\meas.c" />
+    <ClCompile Include="..\source\icc\ncl2.c" />
+    <ClCompile Include="..\source\icc\ncol.c" />
+    <ClCompile Include="..\source\icc\pre0.c" />
+    <ClCompile Include="..\source\icc\pre1.c" />
+    <ClCompile Include="..\source\icc\pre2.c" />
+    <ClCompile Include="..\source\icc\ps2i.c" />
+    <ClCompile Include="..\source\icc\pseq.c" />
+    <ClCompile Include="..\source\icc\ps2s.c" />
+    <ClCompile Include="..\source\icc\psd0.c" />
+    <ClCompile Include="..\source\icc\psd1.c" />
+    <ClCompile Include="..\source\icc\psd2.c" />
+    <ClCompile Include="..\source\icc\psd3.c" />
+    <ClCompile Include="..\source\icc\rtrc.c" />
+    <ClCompile Include="..\source\icc\rxyz.c" />
+    <ClCompile Include="..\source\icc\scrd.c" />
+    <ClCompile Include="..\source\icc\scrn.c" />
+    <ClCompile Include="..\source\icc\targ.c" />
+    <ClCompile Include="..\source\icc\tech.c" />
+    <ClCompile Include="..\source\icc\view.c" />
+    <ClCompile Include="..\source\icc\vued.c" />
+    <ClCompile Include="..\source\icc\wtpt.c" />
+    <ClCompile Include="main.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\source\icc\icc.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

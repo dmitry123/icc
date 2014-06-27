@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.c" />
+    <ClCompile Include="..\source\icc\a2b0.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\icc\a2b1.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\icc\a2b2.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\icc\b2a0.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\icc\b2a1.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\icc\bfd.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\icc\btrc.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\icc\bxyz.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\icc\calt.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\icc\cprt.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\icc\desc.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\icc\dmdd.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\icc\dmnd.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\icc\gamt.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\icc\gtrc.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\icc\gxyz.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\icc\icc.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\icc\ktrc.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\icc\lumi.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\icc\meas.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\icc\ncl2.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\icc\ncol.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\icc\pre0.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\icc\pre1.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\icc\pre2.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\icc\ps2s.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\icc\psd0.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\icc\psd1.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\icc\psd2.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\icc\psd3.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\icc\rtrc.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\icc\rxyz.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\icc\scrd.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\icc\scrn.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\icc\targ.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\icc\tech.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\icc\view.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\icc\vued.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\icc\wtpt.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\icc\pseq.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\icc\ps2i.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\icc\bkpt.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\icc\b2a2.c">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{1927fcfa-9bd4-4a6f-a051-1b351f4504af}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\source\icc\icc.h">
+      <Filter>source</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
